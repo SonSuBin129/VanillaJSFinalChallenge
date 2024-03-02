@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final Challenge</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/main.css" />
+  </head>
+  <body>
+    <div class="geolocation">
+      <span id="geolocation_City">Loading...</span>
+      <span id="geolocation_Weather">Loading...</span>
+    </div>
+    <div class="RealTime">
+      <h2 id="realtime_Date">2023.03.02</h2>
+      <h2 id="realtime_Time">23:11:01</h2>
+    </div>
+    <hr class="separator" />
+    <div class="todos">
+      <div id="todo-title">Todo's</div>
+      <form id="todo-form">
+        <input type="text" placeholder="Write a To Do and Press Enter" />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+
+    <!-- script -->
+    <script src="src/js/background.js"></script>
+    <script src="src/js/geolocation.js"></script>
+    <script src="src/js/realtime.js"></script>
+    <script src="src/js/todos.js"></script>
+  </body>
+</html>

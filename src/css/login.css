@@ -1,0 +1,62 @@
+body {
+  background-color: #fdc3af7e;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+#welcomeTitle {
+  margin-top: 30px;
+  font-size: 45px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#title {
+  margin: 100px 0px 20px 0px;
+}
+
+#LoginSignUp {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#LoginSignUp input {
+  width: 250px;
+  height: 25px;
+  font-size: 20px;
+}
+
+#LoginSignUp label {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  width: 45px;
+  text-align: center;
+}
+
+#LoginSignUp button {
+  background-color: #fa5a5a;
+}
+
+#LoginSignUp button:hover {
+  background-color: #ffa1a1;
+}
+
+.btnClass {
+  margin-top: 50px;
+}
+
+.btnClass button {
+  margin: 0 10px;
+}
+
+.idClass {
+  margin-bottom: 20px;
+}
